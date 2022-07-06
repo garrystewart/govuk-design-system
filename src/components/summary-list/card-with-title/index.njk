@@ -1,0 +1,32 @@
+---
+title: Summary in a card with a title
+layout: layout-example.njk
+---
+
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+
+{{ govukSummaryList({
+  header: {
+    title: {
+      text: "University of Manchester"
+    }
+  },
+  rows: [
+    {
+      key: {
+        text: "Course"
+      },
+      value: {
+        text: "English"
+      }
+    },
+    {
+      key: {
+        text: "Location"
+      },
+      value: {
+        html: "School name<br>Road, City, SW1 1AA"
+      }
+    }
+  ]
+}) }}
