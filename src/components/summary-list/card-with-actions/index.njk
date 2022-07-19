@@ -1,5 +1,5 @@
 ---
-title: Summary in a card with a title
+title: Summary in a card with a title and actions
 layout: layout-example.njk
 ---
 
@@ -9,6 +9,20 @@ layout: layout-example.njk
   header: {
     title: {
       text: "University of Gloucestershire"
+    },
+    actions: {
+      items: [
+        {
+          href: "#",
+          text: "Delete choice",
+          visuallyHiddenText: "of University of Gloucestershire"
+        },
+        {
+          href: "#",
+          text: "Withdraw",
+          visuallyHiddenText: "from University of Gloucestershire"
+        }
+      ]
     }
   },
   rows: [
@@ -35,6 +49,20 @@ layout: layout-example.njk
   header: {
     title: {
       text: "University of Bristol"
+    },
+    actions: {
+      items: [
+        {
+          href: "#",
+          text: "Delete choice",
+          visuallyHiddenText: "of University of Bristol"
+        },
+        {
+          href: "#",
+          text: "Withdraw",
+          visuallyHiddenText: "from University of Bristol"
+        }
+      ]
     }
   },
   rows: [

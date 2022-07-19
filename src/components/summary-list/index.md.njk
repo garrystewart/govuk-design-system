@@ -2,7 +2,7 @@
 title: Summary list
 description: Use the summary list to summarise information, for example, a user’s responses at the end of a form.
 section: Components
-aliases:
+aliases: Summary card
 backlog_issue_id: 182
 layout: layout-pane.njk
 ---
@@ -27,9 +27,7 @@ Do not use it for tabular data or a simple list of information or tasks, like a 
 
 ## How it works
 
-You can show a single or multiple summary lists on a page.
-
-To add structure to a page with multiple summary lists, you can use headings or summary cards.
+You can show a single or multiple summary lists on a page. To add structure to a page with multiple summary lists, you can use headings or summary cards.
 
 There are 2 ways to use the summary list component. You can use HTML or, if you’re using [Nunjucks](https://mozilla.github.io/nunjucks/) or the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com), you can use the Nunjucks macro.
 
@@ -63,49 +61,47 @@ To remove borders on a single row, use the `govuk-summary-list__row--no-border` 
 
 ## Showing multiple summary lists
 
-If you’re showing multiple summary lists on the same page, you can wrap each list into a summary card. This lets you visually separate them and give each list a title and some actions.
+If you’re showing multiple summary lists on a page, you can show each list within a summary card. This lets you visually separate them and give each list a title and some actions.
 
 Use summary cards when you need to:
-* show multiple summary lists that are related to one another
-* show actions that will apply to everything in a summary list
+- show multiple summary lists that are related to one another
+- show actions that will apply to everything in a summary list
+
+But do not use summary cards if you only need to show a small amount of related information. Use summary lists instead, and structure them with headings if needed.
 
 If you’re showing summary cards at the end of a journey, you might want to familiarise the user with them earlier on — such as when the user reviews individual sections.
-
-Do not use summary cards if you only need to show a small amount of related information. Use summary lists instead, and structure them with headings if needed.
 
 ### Summary card with a title
 
 Use the summary card’s header to give each summary list a title.
 
-Each title should be unique and help identify what the summarised information is about. For example, this could be the name of an organisation or a professional qualification.
+Each title should be unique and help identify what the information in the summary list is meant to describe. For example, this could be a person, organisation or professional qualification.
 
-A title can simply be one or two of the important values in the summary list. Try to keep titles short.
+A title can simply be made up of one or two important values in the summary list — such as the first and last name of a person. Try to keep titles short.
 
 {{ example({group: "components", item: "summary-list", example: "card-with-title", html: true, nunjucks: true, open: false}) }}
 
 ### Summary card with a title and actions
 
-Show any summary card actions in the header. 
+You can also add action links in the header. These should be actions that apply to all values in the summary list, such as ‘Delete’, ‘Edit’ or ‘Update status’. 
 
-These links should let the user affect all values in the summary card, such as ‘Delete’, ‘Edit’ or ‘Update status’. 
-
-For example, you might choose to show a single ‘Change’ link in the header instead of repeating ‘Change’ links for every value that would go to the same place.
+For example, you might choose to show a single ‘Change’ link in the header, instead of repeating change links for every row, if they’d all go to the same page anyway.
 
 Do not add more than 3 actions in a header.
 
-Remember to follow all other guidance for adding actions in ‘Adding actions to each row’.
+Remember to follow the rest of the guidance in ‘Adding actions to each row’ to help assistive technology users.
 
-[EXAMPLE]
+{{ example({group: "components", item: "summary-list", example: "card-with-actions", html: true, nunjucks: true, open: false}) }}
 
 ### Summary card without a title
 
-Summary cards should include a title — but there are some cases when you might choose to use a summary card without a title.
+Summary cards should have a title — but there are some instances when you might choose not to add a title.
 
-For example, you might need to show multiple summary lists when it does not make sense to write titles or headings for them, but need to visually separate them.
+For example, you might need to show multiple summary lists and visually separate them — but it does not make sense to write titles and headings.
 
-Similarly, you might need to show one or more summary lists that do not call for titles together with summary cards that do, and need them to look consistent.
+Similarly, you might need to show a mix of summary lists that do, and do not, call for titles.
 
-[EXAMPLE]
+{{ example({group: "components", item: "summary-list", example: "card-no-title", html: true, nunjucks: true, open: false}) }}
 
 ## Research on this component
 
