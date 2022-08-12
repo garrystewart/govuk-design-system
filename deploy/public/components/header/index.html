@@ -1132,7 +1132,6 @@
       <div class="app-example__toolbar">
         <a href="/components/header/default/index.html" class="app-example__new-window" target="_blank">
           Open this
-
           <span class="govuk-visually-hidden">header</span>
           example in a new tab
         </a>
@@ -1172,187 +1171,187 @@
     </div>
       <div class="app-tabs__heading js-tabs__heading"><a class="app-tabs__heading-link" href="#default-1-nunjucks" aria-controls="default-1-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
     <div class="app-tabs__container js-tabs__container" id="default-1-nunjucks" role="tabpanel">  
-
-
-        <details class="govuk-details app-options" data-module="govuk-details" id="options-default-1-details">
+  
+  
+<pre><code>&lt;details <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;govuk-details app-options&quot;</span> <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;govuk-details&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-string">&quot;options-default-1-details&quot;</span>&gt;
+</code></pre>
   <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
       <span data-components='github-component-arguments'>Nunjucks macro options</span>
     </span>
   </summary>
   <div class="govuk-details__text">
+      
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Some options are required for the macro to work; these are marked as &quot;Required&quot; in the option description.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      If you&#x27;re using Nunjucks macros in production with &quot;html&quot; options, or ones ending with &quot;html&quot;, you must sanitise the HTML to protect against  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting&quot;</span>&gt;</span>cross-site scripting exploits<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-          <p>
-          Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
-          </p>
-          <p>
-          Some options are required for the macro to work; these are marked as "Required" in the option description.
-          </p>
-          <p>
-          If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
-          </p>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-default-1--primary&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m  govuk-visually-hidden&quot;</span>&gt;</span>Primary options<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-            <table class="govuk-table app-options__table" id="options-default-1--primary">
-              <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>homepageUrl<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The URL of the homepage. Defaults to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>/<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>assetsPath<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The public path for the assets folder. If not provided it defaults to /assets/images
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>productName<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Product name, used when the product name follows on directly from ‘GOV.UK’. For example, GOV.UK Pay or GOV.UK Design System. In most circumstances, you should use <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>serviceName<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>serviceName<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The name of your service, included in the header.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>serviceUrl<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  URL for the service name anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigation<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>array<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  An array of navigation item objects.
+                    See <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#options-default-1--navigation&quot;</span>&gt;</span>navigation<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigationClasses<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes for the navigation section of the header.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigationLabel<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Text for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-label<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attribute of the navigation. Defaults to <span class="hljs-symbol">&amp;#39;</span>Menu<span class="hljs-symbol">&amp;#39;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>menuButtonLabel<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Text for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-label<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attribute of the button that toggles the navigation. Defaults to <span class="hljs-symbol">&amp;#39;</span>Show or hide menu<span class="hljs-symbol">&amp;#39;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>containerClasses<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes for the container, useful if you want to make the header fixed width.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>classes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes to add to the header container.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the header container.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-default-1--navigation&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m &quot;</span>&gt;</span>Options for navigation<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">homepageUrl</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The URL of the homepage. Defaults to <code>/</code>
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">assetsPath</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The public path for the assets folder. If not provided it defaults to /assets/images
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">productName</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Product name, used when the product name follows on directly from ‘GOV.UK’. For example, GOV.UK Pay or GOV.UK Design System. In most circumstances, you should use <code>serviceName</code>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">serviceName</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The name of your service, included in the header.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">serviceUrl</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      URL for the service name anchor.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigation</th>
-                    <td class="govuk-table__cell ">array</td>
-                    <td class="govuk-table__cell ">
-                      An array of navigation item objects.
-                        See <a href="#options-default-1--navigation">navigation</a>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigationClasses</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes for the navigation section of the header.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigationLabel</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Text for the <code>aria-label</code> attribute of the navigation. Defaults to &#39;Menu&#39;.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">menuButtonLabel</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Text for the <code>aria-label</code> attribute of the button that toggles the navigation. Defaults to &#39;Show or hide menu&#39;.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">containerClasses</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes for the container, useful if you want to make the header fixed width.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">classes</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes to add to the header container.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the header container.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-            <table class="govuk-table app-options__table" id="options-default-1--navigation">
-              <caption class="govuk-table__caption govuk-heading-m ">Options for navigation</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
-
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">text</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      Text for the navigation item. If <code>html</code> is provided, the <code>text</code> option will be ignored.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">html</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      HTML for the navigation item. If <code>html</code> is provided, the <code>text</code> option will be ignored.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">href</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      URL of the navigation item anchor.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">active</th>
-                    <td class="govuk-table__cell ">boolean</td>
-                    <td class="govuk-table__cell ">
-                      Flag to mark the navigation item as active or not.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the navigation item anchor.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-
-
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  Text for the navigation item. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  HTML for the navigation item. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  URL of the navigation item anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>active<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>boolean<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Flag to mark the navigation item as active or not.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the navigation item anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
   </div>
 </details>
 
-      <div class="app-example__code">
-        <pre data-module="app-copy" tabindex="0"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;govuk/components/header/macro.njk&quot;</span> <span class="hljs-keyword">import</span> govukHeader %}
-
-{{ govukHeader({
+<pre><code>&lt;div <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;app-example__code&quot;</span>&gt;
+    &lt;pre <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;app-copy&quot;</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-string">&quot;0&quot;</span>&gt;&lt;code <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs js&quot;</span>&gt;{% &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;from&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;&amp;quot;govuk/components/header/macro.njk&amp;quot;&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;import&lt;/span&gt; govukHeader %}
+</code></pre>
+<p>{{ govukHeader({
   <span class="hljs-attr">homepageUrl</span>: <span class="hljs-string">&quot;#&quot;</span>
 }) }}</code></pre>
       </div>
-    </div>
+    </div></p>
 </div>
 
 
@@ -1375,7 +1374,6 @@
       <div class="app-example__toolbar">
         <a href="/components/header/default/index.html" class="app-example__new-window" target="_blank">
           Open this
-
           <span class="govuk-visually-hidden">header second</span>
           example in a new tab
         </a>
@@ -1415,187 +1413,187 @@
     </div>
       <div class="app-tabs__heading js-tabs__heading"><a class="app-tabs__heading-link" href="#header-second-example-nunjucks" aria-controls="header-second-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
     <div class="app-tabs__container js-tabs__container" id="header-second-example-nunjucks" role="tabpanel">  
-
-
-        <details class="govuk-details app-options" data-module="govuk-details" id="options-header-second-example-details">
+  
+  
+<pre><code>&lt;details <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;govuk-details app-options&quot;</span> <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;govuk-details&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-string">&quot;options-header-second-example-details&quot;</span>&gt;
+</code></pre>
   <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
       <span data-components='github-component-arguments'>Nunjucks macro options</span>
     </span>
   </summary>
   <div class="govuk-details__text">
+      
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Some options are required for the macro to work; these are marked as &quot;Required&quot; in the option description.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      If you&#x27;re using Nunjucks macros in production with &quot;html&quot; options, or ones ending with &quot;html&quot;, you must sanitise the HTML to protect against  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting&quot;</span>&gt;</span>cross-site scripting exploits<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-          <p>
-          Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
-          </p>
-          <p>
-          Some options are required for the macro to work; these are marked as "Required" in the option description.
-          </p>
-          <p>
-          If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
-          </p>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-header-second-example--primary&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m  govuk-visually-hidden&quot;</span>&gt;</span>Primary options<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-            <table class="govuk-table app-options__table" id="options-header-second-example--primary">
-              <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>homepageUrl<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The URL of the homepage. Defaults to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>/<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>assetsPath<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The public path for the assets folder. If not provided it defaults to /assets/images
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>productName<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Product name, used when the product name follows on directly from ‘GOV.UK’. For example, GOV.UK Pay or GOV.UK Design System. In most circumstances, you should use <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>serviceName<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>serviceName<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The name of your service, included in the header.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>serviceUrl<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  URL for the service name anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigation<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>array<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  An array of navigation item objects.
+                    See <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#options-header-second-example--navigation&quot;</span>&gt;</span>navigation<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigationClasses<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes for the navigation section of the header.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigationLabel<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Text for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-label<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attribute of the navigation. Defaults to <span class="hljs-symbol">&amp;#39;</span>Menu<span class="hljs-symbol">&amp;#39;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>menuButtonLabel<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Text for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-label<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attribute of the button that toggles the navigation. Defaults to <span class="hljs-symbol">&amp;#39;</span>Show or hide menu<span class="hljs-symbol">&amp;#39;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>containerClasses<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes for the container, useful if you want to make the header fixed width.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>classes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes to add to the header container.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the header container.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-header-second-example--navigation&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m &quot;</span>&gt;</span>Options for navigation<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">homepageUrl</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The URL of the homepage. Defaults to <code>/</code>
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">assetsPath</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The public path for the assets folder. If not provided it defaults to /assets/images
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">productName</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Product name, used when the product name follows on directly from ‘GOV.UK’. For example, GOV.UK Pay or GOV.UK Design System. In most circumstances, you should use <code>serviceName</code>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">serviceName</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The name of your service, included in the header.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">serviceUrl</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      URL for the service name anchor.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigation</th>
-                    <td class="govuk-table__cell ">array</td>
-                    <td class="govuk-table__cell ">
-                      An array of navigation item objects.
-                        See <a href="#options-header-second-example--navigation">navigation</a>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigationClasses</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes for the navigation section of the header.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigationLabel</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Text for the <code>aria-label</code> attribute of the navigation. Defaults to &#39;Menu&#39;.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">menuButtonLabel</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Text for the <code>aria-label</code> attribute of the button that toggles the navigation. Defaults to &#39;Show or hide menu&#39;.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">containerClasses</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes for the container, useful if you want to make the header fixed width.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">classes</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes to add to the header container.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the header container.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-            <table class="govuk-table app-options__table" id="options-header-second-example--navigation">
-              <caption class="govuk-table__caption govuk-heading-m ">Options for navigation</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
-
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">text</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      Text for the navigation item. If <code>html</code> is provided, the <code>text</code> option will be ignored.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">html</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      HTML for the navigation item. If <code>html</code> is provided, the <code>text</code> option will be ignored.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">href</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      URL of the navigation item anchor.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">active</th>
-                    <td class="govuk-table__cell ">boolean</td>
-                    <td class="govuk-table__cell ">
-                      Flag to mark the navigation item as active or not.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the navigation item anchor.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-
-
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  Text for the navigation item. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  HTML for the navigation item. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  URL of the navigation item anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>active<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>boolean<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Flag to mark the navigation item as active or not.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the navigation item anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
   </div>
 </details>
 
-      <div class="app-example__code">
-        <pre data-module="app-copy" tabindex="0"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;govuk/components/header/macro.njk&quot;</span> <span class="hljs-keyword">import</span> govukHeader %}
-
-{{ govukHeader({
+<pre><code>&lt;div <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;app-example__code&quot;</span>&gt;
+    &lt;pre <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;app-copy&quot;</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-string">&quot;0&quot;</span>&gt;&lt;code <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs js&quot;</span>&gt;{% &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;from&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;&amp;quot;govuk/components/header/macro.njk&amp;quot;&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;import&lt;/span&gt; govukHeader %}
+</code></pre>
+<p>{{ govukHeader({
   <span class="hljs-attr">homepageUrl</span>: <span class="hljs-string">&quot;#&quot;</span>
 }) }}</code></pre>
       </div>
-    </div>
+    </div></p>
 </div>
 
 
@@ -1607,7 +1605,6 @@
       <div class="app-example__toolbar">
         <a href="/components/header/with-service-name/index.html" class="app-example__new-window" target="_blank">
           Open this
-
           <span class="govuk-visually-hidden">header with service name</span>
           example in a new tab
         </a>
@@ -1652,189 +1649,189 @@
     </div>
       <div class="app-tabs__heading js-tabs__heading"><a class="app-tabs__heading-link" href="#header-with-service-name-example-nunjucks" aria-controls="header-with-service-name-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
     <div class="app-tabs__container js-tabs__container" id="header-with-service-name-example-nunjucks" role="tabpanel">  
-
-
-        <details class="govuk-details app-options" data-module="govuk-details" id="options-header-with-service-name-example-details">
+  
+  
+<pre><code>&lt;details <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;govuk-details app-options&quot;</span> <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;govuk-details&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-string">&quot;options-header-with-service-name-example-details&quot;</span>&gt;
+</code></pre>
   <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
       <span data-components='github-component-arguments'>Nunjucks macro options</span>
     </span>
   </summary>
   <div class="govuk-details__text">
+      
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Some options are required for the macro to work; these are marked as &quot;Required&quot; in the option description.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      If you&#x27;re using Nunjucks macros in production with &quot;html&quot; options, or ones ending with &quot;html&quot;, you must sanitise the HTML to protect against  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting&quot;</span>&gt;</span>cross-site scripting exploits<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-          <p>
-          Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
-          </p>
-          <p>
-          Some options are required for the macro to work; these are marked as "Required" in the option description.
-          </p>
-          <p>
-          If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
-          </p>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-header-with-service-name-example--primary&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m  govuk-visually-hidden&quot;</span>&gt;</span>Primary options<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-            <table class="govuk-table app-options__table" id="options-header-with-service-name-example--primary">
-              <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>homepageUrl<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The URL of the homepage. Defaults to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>/<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>assetsPath<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The public path for the assets folder. If not provided it defaults to /assets/images
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>productName<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Product name, used when the product name follows on directly from ‘GOV.UK’. For example, GOV.UK Pay or GOV.UK Design System. In most circumstances, you should use <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>serviceName<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>serviceName<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The name of your service, included in the header.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>serviceUrl<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  URL for the service name anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigation<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>array<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  An array of navigation item objects.
+                    See <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#options-header-with-service-name-example--navigation&quot;</span>&gt;</span>navigation<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigationClasses<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes for the navigation section of the header.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigationLabel<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Text for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-label<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attribute of the navigation. Defaults to <span class="hljs-symbol">&amp;#39;</span>Menu<span class="hljs-symbol">&amp;#39;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>menuButtonLabel<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Text for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-label<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attribute of the button that toggles the navigation. Defaults to <span class="hljs-symbol">&amp;#39;</span>Show or hide menu<span class="hljs-symbol">&amp;#39;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>containerClasses<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes for the container, useful if you want to make the header fixed width.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>classes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes to add to the header container.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the header container.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-header-with-service-name-example--navigation&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m &quot;</span>&gt;</span>Options for navigation<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">homepageUrl</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The URL of the homepage. Defaults to <code>/</code>
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">assetsPath</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The public path for the assets folder. If not provided it defaults to /assets/images
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">productName</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Product name, used when the product name follows on directly from ‘GOV.UK’. For example, GOV.UK Pay or GOV.UK Design System. In most circumstances, you should use <code>serviceName</code>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">serviceName</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The name of your service, included in the header.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">serviceUrl</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      URL for the service name anchor.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigation</th>
-                    <td class="govuk-table__cell ">array</td>
-                    <td class="govuk-table__cell ">
-                      An array of navigation item objects.
-                        See <a href="#options-header-with-service-name-example--navigation">navigation</a>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigationClasses</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes for the navigation section of the header.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigationLabel</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Text for the <code>aria-label</code> attribute of the navigation. Defaults to &#39;Menu&#39;.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">menuButtonLabel</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Text for the <code>aria-label</code> attribute of the button that toggles the navigation. Defaults to &#39;Show or hide menu&#39;.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">containerClasses</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes for the container, useful if you want to make the header fixed width.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">classes</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes to add to the header container.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the header container.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-            <table class="govuk-table app-options__table" id="options-header-with-service-name-example--navigation">
-              <caption class="govuk-table__caption govuk-heading-m ">Options for navigation</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
-
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">text</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      Text for the navigation item. If <code>html</code> is provided, the <code>text</code> option will be ignored.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">html</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      HTML for the navigation item. If <code>html</code> is provided, the <code>text</code> option will be ignored.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">href</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      URL of the navigation item anchor.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">active</th>
-                    <td class="govuk-table__cell ">boolean</td>
-                    <td class="govuk-table__cell ">
-                      Flag to mark the navigation item as active or not.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the navigation item anchor.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-
-
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  Text for the navigation item. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  HTML for the navigation item. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  URL of the navigation item anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>active<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>boolean<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Flag to mark the navigation item as active or not.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the navigation item anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
   </div>
 </details>
 
-      <div class="app-example__code">
-        <pre data-module="app-copy" tabindex="0"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;govuk/components/header/macro.njk&quot;</span> <span class="hljs-keyword">import</span> govukHeader %}
-
-{{ govukHeader({
+<pre><code>&lt;div <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;app-example__code&quot;</span>&gt;
+    &lt;pre <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;app-copy&quot;</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-string">&quot;0&quot;</span>&gt;&lt;code <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs js&quot;</span>&gt;{% &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;from&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;&amp;quot;govuk/components/header/macro.njk&amp;quot;&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;import&lt;/span&gt; govukHeader %}
+</code></pre>
+<p>{{ govukHeader({
   <span class="hljs-attr">homepageUrl</span>: <span class="hljs-string">&quot;#&quot;</span>,
   <span class="hljs-attr">serviceName</span>: <span class="hljs-string">&quot;Service name&quot;</span>,
   <span class="hljs-attr">serviceUrl</span>: <span class="hljs-string">&quot;#&quot;</span>
 }) }}</code></pre>
       </div>
-    </div>
+    </div></p>
 </div>
 
 
@@ -1846,7 +1843,6 @@
       <div class="app-example__toolbar">
         <a href="/components/header/with-service-name-and-navigation/index.html" class="app-example__new-window" target="_blank">
           Open this
-
           <span class="govuk-visually-hidden">header with service name and navigation</span>
           example in a new tab
         </a>
@@ -1887,213 +1883,212 @@
       <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">&quot;Menu&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__navigation &quot;</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;button&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__menu-button govuk-js-header-toggle&quot;</span> <span class="hljs-attr">aria-controls</span>=<span class="hljs-string">&quot;navigation&quot;</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">&quot;Show or hide menu&quot;</span> <span class="hljs-attr">hidden</span>&gt;</span>Menu<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
 
-        <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;navigation&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__navigation-list&quot;</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__navigation-item govuk-header__navigation-item--active&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__link&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#1&quot;</span>&gt;</span>
-              Navigation item 1
-            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-          <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__navigation-item&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__link&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#2&quot;</span>&gt;</span>
-              Navigation item 2
-            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-          <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__navigation-item&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__link&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#3&quot;</span>&gt;</span>
-              Navigation item 3
-            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-          <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__navigation-item&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-header__link&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#4&quot;</span>&gt;</span>
-              Navigation item 4
-            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-          <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-        <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
-      <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>ul<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>id<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>navigation<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__navigation-list<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>li<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__navigation-item govuk-header__navigation-item--active<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__link<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>#1<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          Navigation item 1
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>li<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>li<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__navigation-item<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__link<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>#2<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          Navigation item 2
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>li<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>li<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__navigation-item<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__link<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>#3<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          Navigation item 3
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>li<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>li<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__navigation-item<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>class<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>govuk-header__link<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-attr&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>#4<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          Navigation item 4
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>li<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>ul<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>nav<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-tag&quot;</span>&gt;</span><span class="hljs-symbol">&amp;lt;</span>/<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hljs-name&quot;</span>&gt;</span>div<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-symbol">&amp;gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+</code></pre>
+<p>  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span></code></pre>
       </div>
     </div>
       <div class="app-tabs__heading js-tabs__heading"><a class="app-tabs__heading-link" href="#header-with-service-name-and-navigation-example-nunjucks" aria-controls="header-with-service-name-and-navigation-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
-    <div class="app-tabs__container js-tabs__container" id="header-with-service-name-and-navigation-example-nunjucks" role="tabpanel">  
-
-
-        <details class="govuk-details app-options" data-module="govuk-details" id="options-header-with-service-name-and-navigation-example-details">
+    <div class="app-tabs__container js-tabs__container" id="header-with-service-name-and-navigation-example-nunjucks" role="tabpanel">  </p>
+<pre><code>&lt;details <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;govuk-details app-options&quot;</span> <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;govuk-details&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-string">&quot;options-header-with-service-name-and-navigation-example-details&quot;</span>&gt;
+</code></pre>
   <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
       <span data-components='github-component-arguments'>Nunjucks macro options</span>
     </span>
   </summary>
   <div class="govuk-details__text">
+      
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Some options are required for the macro to work; these are marked as &quot;Required&quot; in the option description.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      If you&#x27;re using Nunjucks macros in production with &quot;html&quot; options, or ones ending with &quot;html&quot;, you must sanitise the HTML to protect against  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting&quot;</span>&gt;</span>cross-site scripting exploits<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-          <p>
-          Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
-          </p>
-          <p>
-          Some options are required for the macro to work; these are marked as "Required" in the option description.
-          </p>
-          <p>
-          If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
-          </p>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-header-with-service-name-and-navigation-example--primary&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m  govuk-visually-hidden&quot;</span>&gt;</span>Primary options<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-            <table class="govuk-table app-options__table" id="options-header-with-service-name-and-navigation-example--primary">
-              <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>homepageUrl<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The URL of the homepage. Defaults to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>/<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>assetsPath<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The public path for the assets folder. If not provided it defaults to /assets/images
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>productName<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Product name, used when the product name follows on directly from ‘GOV.UK’. For example, GOV.UK Pay or GOV.UK Design System. In most circumstances, you should use <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>serviceName<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>serviceName<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The name of your service, included in the header.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>serviceUrl<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  URL for the service name anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigation<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>array<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  An array of navigation item objects.
+                    See <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;#options-header-with-service-name-and-navigation-example--navigation&quot;</span>&gt;</span>navigation<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigationClasses<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes for the navigation section of the header.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>navigationLabel<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Text for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-label<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attribute of the navigation. Defaults to <span class="hljs-symbol">&amp;#39;</span>Menu<span class="hljs-symbol">&amp;#39;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>menuButtonLabel<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Text for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-label<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attribute of the button that toggles the navigation. Defaults to <span class="hljs-symbol">&amp;#39;</span>Show or hide menu<span class="hljs-symbol">&amp;#39;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>containerClasses<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes for the container, useful if you want to make the header fixed width.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>classes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes to add to the header container.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the header container.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-header-with-service-name-and-navigation-example--navigation&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m &quot;</span>&gt;</span>Options for navigation<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">homepageUrl</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The URL of the homepage. Defaults to <code>/</code>
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">assetsPath</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The public path for the assets folder. If not provided it defaults to /assets/images
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">productName</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Product name, used when the product name follows on directly from ‘GOV.UK’. For example, GOV.UK Pay or GOV.UK Design System. In most circumstances, you should use <code>serviceName</code>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">serviceName</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The name of your service, included in the header.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">serviceUrl</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      URL for the service name anchor.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigation</th>
-                    <td class="govuk-table__cell ">array</td>
-                    <td class="govuk-table__cell ">
-                      An array of navigation item objects.
-                        See <a href="#options-header-with-service-name-and-navigation-example--navigation">navigation</a>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigationClasses</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes for the navigation section of the header.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">navigationLabel</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Text for the <code>aria-label</code> attribute of the navigation. Defaults to &#39;Menu&#39;.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">menuButtonLabel</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Text for the <code>aria-label</code> attribute of the button that toggles the navigation. Defaults to &#39;Show or hide menu&#39;.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">containerClasses</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes for the container, useful if you want to make the header fixed width.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">classes</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes to add to the header container.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the header container.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-            <table class="govuk-table app-options__table" id="options-header-with-service-name-and-navigation-example--navigation">
-              <caption class="govuk-table__caption govuk-heading-m ">Options for navigation</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
-
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">text</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      Text for the navigation item. If <code>html</code> is provided, the <code>text</code> option will be ignored.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">html</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      HTML for the navigation item. If <code>html</code> is provided, the <code>text</code> option will be ignored.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">href</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      URL of the navigation item anchor.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">active</th>
-                    <td class="govuk-table__cell ">boolean</td>
-                    <td class="govuk-table__cell ">
-                      Flag to mark the navigation item as active or not.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the navigation item anchor.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-
-
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  Text for the navigation item. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  HTML for the navigation item. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  URL of the navigation item anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>active<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>boolean<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Flag to mark the navigation item as active or not.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the navigation item anchor.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
   </div>
 </details>
 
-      <div class="app-example__code">
-        <pre data-module="app-copy" tabindex="0"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;govuk/components/header/macro.njk&quot;</span> <span class="hljs-keyword">import</span> govukHeader %}
-
-{{ govukHeader({
+<pre><code>&lt;div <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;app-example__code&quot;</span>&gt;
+    &lt;pre <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;app-copy&quot;</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-string">&quot;0&quot;</span>&gt;&lt;code <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs js&quot;</span>&gt;{% &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;from&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;&amp;quot;govuk/components/header/macro.njk&amp;quot;&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;import&lt;/span&gt; govukHeader %}
+</code></pre>
+<p>{{ govukHeader({
   <span class="hljs-attr">homepageUrl</span>: <span class="hljs-string">&quot;#&quot;</span>,
   <span class="hljs-attr">serviceName</span>: <span class="hljs-string">&quot;Service name&quot;</span>,
   <span class="hljs-attr">serviceUrl</span>: <span class="hljs-string">&quot;#&quot;</span>,
@@ -2118,7 +2113,7 @@
   ]
 }) }}</code></pre>
       </div>
-    </div>
+    </div></p>
 </div>
 
 

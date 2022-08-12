@@ -1032,7 +1032,6 @@
       <div class="app-example__toolbar">
         <a href="/components/button/default/index.html" class="app-example__new-window" target="_blank">
           Open this
-
           <span class="govuk-visually-hidden">button</span>
           example in a new tab
         </a>
@@ -1054,138 +1053,138 @@
     </div>
       <div class="app-tabs__heading js-tabs__heading"><a class="app-tabs__heading-link" href="#button-example-nunjucks" aria-controls="button-example-nunjucks" data-track="tab-nunjucks">Nunjucks</a></div>
     <div class="app-tabs__container js-tabs__container" id="button-example-nunjucks" role="tabpanel">  
-
-
-        <details class="govuk-details app-options" data-module="govuk-details" id="options-button-example-details">
+  
+  
+<pre><code>&lt;details <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;govuk-details app-options&quot;</span> <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;govuk-details&quot;</span> <span class="hljs-attribute">id</span>=<span class="hljs-string">&quot;options-button-example-details&quot;</span>&gt;
+</code></pre>
   <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
       <span data-components='github-component-arguments'>Nunjucks macro options</span>
     </span>
   </summary>
   <div class="govuk-details__text">
+      
+<pre><code><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      Some options are required for the macro to work; these are marked as &quot;Required&quot; in the option description.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+      If you&#x27;re using Nunjucks macros in production with &quot;html&quot; options, or ones ending with &quot;html&quot;, you must sanitise the HTML to protect against  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting&quot;</span>&gt;</span>cross-site scripting exploits<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>.
+      <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 
-          <p>
-          Use options to customise the appearance, content and behaviour of a component when using a macro, for example, changing the text.
-          </p>
-          <p>
-          Some options are required for the macro to work; these are marked as "Required" in the option description.
-          </p>
-          <p>
-          If you're using Nunjucks macros in production with "html" options, or ones ending with "html", you must sanitise the HTML to protect against  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting">cross-site scripting exploits</a>.
-          </p>
+        <span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table app-options__table&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;options-button-example--primary&quot;</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">caption</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__caption govuk-heading-m  govuk-visually-hidden&quot;</span>&gt;</span>Primary options<span class="hljs-tag">&lt;/<span class="hljs-name">caption</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__head&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header app-options__limit-table-cell&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;col&quot;</span>&gt;</span>Description<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">tbody</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__body&quot;</span>&gt;</span>
 
-            <table class="govuk-table app-options__table" id="options-button-example--primary">
-              <caption class="govuk-table__caption govuk-heading-m  govuk-visually-hidden">Primary options</caption>
-              <thead class="govuk-table__head">
-                <tr class="govuk-table__row">
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Name</th>
-                  <th class="govuk-table__header app-options__limit-table-cell" scope="col">Type</th>
-                  <th class="govuk-table__header" scope="col">Description</th>
-                </tr>
-              </thead>
-              <tbody class="govuk-table__body">
-
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">element</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Whether to use an <code>input</code>, <code>button</code> or <code>a</code> element to create the button. In most cases you will not need to set this as it will be configured automatically if you use <code>href</code> or <code>html</code>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">text</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      If <code>html</code> is set, this is not required. Text for the button or link. If <code>html</code> is provided, the <code>text</code> option will be ignored and <code>element</code> will be automatically set to <code>button</code> unless <code>href</code> is also set, or it has already been defined. This option has no effect if <code>element</code> is set to <code>input</code>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">html</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                        <strong>Required.</strong>
-                      If <code>text</code> is set, this is not required. HTML for the button or link. If <code>html</code> is provided, the <code>text</code> option will be ignored and <code>element</code> will be automatically set to <code>button</code> unless <code>href</code> is also set, or it has already been defined. This option has no effect if <code>element</code> is set to <code>input</code>.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">name</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Name for the <code>input</code> or <code>button</code>. This has no effect on <code>a</code> elements.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">type</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Type of <code>input</code> or <code>button</code> – <code>button</code>, <code>submit</code> or <code>reset</code>. Defaults to <code>submit</code>. This has no effect on <code>a</code> elements.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">value</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Value for the <code>button</code> tag. This has no effect on <code>a</code> or <code>input</code> elements.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">disabled</th>
-                    <td class="govuk-table__cell ">boolean</td>
-                    <td class="govuk-table__cell ">
-                      Whether the button should be disabled. For button and input elements, <code>disabled</code> and <code>aria-disabled</code> attributes will be set automatically.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">href</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      The URL that the button should link to. If this is set, <code>element</code> will be automatically set to <code>a</code> if it has not already been defined.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">classes</th>
-                    <td class="govuk-table__cell ">string</td>
-                    <td class="govuk-table__cell ">
-                      Classes to add to the button component.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">attributes</th>
-                    <td class="govuk-table__cell ">object</td>
-                    <td class="govuk-table__cell ">
-                      HTML attributes (for example data attributes) to add to the button component.
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">preventDoubleClick</th>
-                    <td class="govuk-table__cell ">boolean</td>
-                    <td class="govuk-table__cell ">
-                      Prevent accidental double clicks on submit buttons from submitting forms multiple times
-                    </td>
-                  </tr>
-                  <tr class="govuk-table__row">
-                    <th class="govuk-table__header" scope="row">isStartButton</th>
-                    <td class="govuk-table__cell ">boolean</td>
-                    <td class="govuk-table__cell ">
-                      Use for the main call to action on your service&#39;s start page.
-                    </td>
-                  </tr>
-              </tbody>
-            </table>
-
-
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>element<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Whether to use an <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>input<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>, <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>button<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> element to create the button. In most cases you will not need to set this as it will be configured automatically if you use <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is set, this is not required. Text for the button or link. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored and <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>element<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> will be automatically set to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>button<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> unless <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is also set, or it has already been defined. This option has no effect if <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>element<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is set to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>input<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Required.<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+                  If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is set, this is not required. HTML for the button or link. If <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>html<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is provided, the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>text<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> option will be ignored and <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>element<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> will be automatically set to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>button<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> unless <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is also set, or it has already been defined. This option has no effect if <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>element<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> is set to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>input<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>name<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Name for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>input<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>button<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>. This has no effect on <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> elements.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>type<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Type of <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>input<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>button<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> – <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>button<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>, <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>submit<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>reset<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>. Defaults to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>submit<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>. This has no effect on <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> elements.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>value<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Value for the <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>button<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> tag. This has no effect on <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>input<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> elements.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>disabled<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>boolean<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Whether the button should be disabled. For button and input elements, <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>disabled<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> and <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>aria-disabled<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> attributes will be set automatically.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>href<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  The URL that the button should link to. If this is set, <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>element<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> will be automatically set to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>a<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> if it has not already been defined.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>classes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>string<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Classes to add to the button component.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>attributes<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>object<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  HTML attributes (for example data attributes) to add to the button component.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>preventDoubleClick<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>boolean<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Prevent accidental double clicks on submit buttons from submitting forms multiple times
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">tr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__row&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">th</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__header&quot;</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">&quot;row&quot;</span>&gt;</span>isStartButton<span class="hljs-tag">&lt;/<span class="hljs-name">th</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>boolean<span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;govuk-table__cell &quot;</span>&gt;</span>
+                  Use for the main call to action on your service<span class="hljs-symbol">&amp;#39;</span>s start page.
+                <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+</code></pre>
   </div>
 </details>
 
-      <div class="app-example__code">
-        <pre data-module="app-copy" tabindex="0"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;govuk/components/button/macro.njk&quot;</span> <span class="hljs-keyword">import</span> govukButton %}
-
-{{ govukButton({
+<pre><code>&lt;div <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;app-example__code&quot;</span>&gt;
+    &lt;pre <span class="hljs-attribute">data-module</span>=<span class="hljs-string">&quot;app-copy&quot;</span> <span class="hljs-attribute">tabindex</span>=<span class="hljs-string">&quot;0&quot;</span>&gt;&lt;code <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs js&quot;</span>&gt;{% &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;from&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-string&quot;</span>&gt;&amp;quot;govuk/components/button/macro.njk&amp;quot;&lt;/span&gt; &lt;span <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;hljs-keyword&quot;</span>&gt;import&lt;/span&gt; govukButton %}
+</code></pre>
+<p>{{ govukButton({
   <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;Save and continue&quot;</span>
 }) }}</code></pre>
       </div>
-    </div>
+    </div></p>
 </div>
 
 

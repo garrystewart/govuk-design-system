@@ -1138,7 +1138,6 @@
       <div class="app-example__toolbar">
         <a href="/patterns/email-addresses/default/index.html" class="app-example__new-window" target="_blank">
           Open this
-
           <span class="govuk-visually-hidden">email addresses</span>
           example in a new tab
         </a>
@@ -1168,7 +1167,7 @@
     <div class="app-tabs__container js-tabs__container" id="email-addresses-example-nunjucks" role="tabpanel">      <div class="app-example__code">
         <pre data-module="app-copy" tabindex="0"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;govuk/components/input/macro.njk&quot;</span> <span class="hljs-keyword">import</span> govukInput %}
 
-{{ govukInput({
+<p>{{ govukInput({
   <span class="hljs-attr">label</span>: {
     <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;Email address&quot;</span>
   },
@@ -1182,7 +1181,7 @@
   <span class="hljs-attr">spellcheck</span>: <span class="hljs-literal">false</span>
 }) }}</code></pre>
       </div>
-    </div>
+    </div></p>
 </div>
 
 
@@ -1202,7 +1201,6 @@
       <div class="app-example__toolbar">
         <a href="/patterns/email-addresses/default/index.html" class="app-example__new-window" target="_blank">
           Open this
-
           <span class="govuk-visually-hidden">email addresses second</span>
           example in a new tab
         </a>
@@ -1232,7 +1230,7 @@
     <div class="app-tabs__container js-tabs__container" id="email-addresses-second-example-open-nunjucks" role="tabpanel">      <div class="app-example__code">
         <pre data-module="app-copy" tabindex="0"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;govuk/components/input/macro.njk&quot;</span> <span class="hljs-keyword">import</span> govukInput %}
 
-{{ govukInput({
+<p>{{ govukInput({
   <span class="hljs-attr">label</span>: {
     <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;Email address&quot;</span>
   },
@@ -1246,7 +1244,7 @@
   <span class="hljs-attr">spellcheck</span>: <span class="hljs-literal">false</span>
 }) }}</code></pre>
       </div>
-    </div>
+    </div></p>
 </div>
 
 
@@ -1284,7 +1282,6 @@
       <div class="app-example__toolbar">
         <a href="/patterns/email-addresses/error/index.html" class="app-example__new-window" target="_blank">
           Open this
-
           <span class="govuk-visually-hidden">email input with errors</span>
           example in a new tab
         </a>
@@ -1317,7 +1314,7 @@
     <div class="app-tabs__container js-tabs__container" id="email-input-with-errors-example-nunjucks" role="tabpanel">      <div class="app-example__code">
         <pre data-module="app-copy" tabindex="0"><code class="hljs js">{% <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;govuk/components/input/macro.njk&quot;</span> <span class="hljs-keyword">import</span> govukInput %}
 
-{{ govukInput({
+<p>{{ govukInput({
   <span class="hljs-attr">label</span>: {
     <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;Email address&quot;</span>
   },
@@ -1330,12 +1327,12 @@
   <span class="hljs-attr">value</span>: <span class="hljs-string">&quot;Not an email address&quot;</span>,
   <span class="hljs-attr">autocomplete</span>: <span class="hljs-string">&quot;email&quot;</span>,
   <span class="hljs-attr">errorMessage</span>: {
-    <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;Enter an email address in the correct format, like name@example.com&quot;</span>
+    <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;Enter an email address in the correct format, like <a href="mailto:name@example.com">name@example.com</a>&quot;</span>
   },
   <span class="hljs-attr">spellcheck</span>: <span class="hljs-literal">false</span>
 }) }}</code></pre>
       </div>
-    </div>
+    </div></p>
 </div>
 
 
